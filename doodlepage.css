@@ -14,6 +14,7 @@ section{
     background-color: rgb(255, 202, 26);
 }
 embed{
+    border-radius: 5px;
     margin: 20px;
     float: right;
 }
