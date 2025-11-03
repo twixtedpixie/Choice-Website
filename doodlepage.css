@@ -6,7 +6,7 @@ body{
 header{
     border-radius: 40px 40px 0px 0px;
     margin: 0% auto;
-    background-color: rgb(255, 0, 0);
+    background: radial-gradient(ellipse at center, #ff6464 35%,#ff0000 80%,#a90101 100%);
     width: 1000px;
     height: 70px;
 }
@@ -16,7 +16,8 @@ section{
     height: 450px;
     margin: 0% auto;
     margin-top: 10px;
-    background-color: rgb(255, 202, 26);
+    background: radial-gradient(ellipse at center,  #ffe284 28%,#ffca1a 63%,#f4af00 86%);
+
 }
 embed{
     border-radius: 5px;
