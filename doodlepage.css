@@ -4,11 +4,11 @@ body{
     background-size: 1300px;
 }
 header{
-    border-radius: 40px 40px 0px 0px;
+    border-radius: 20px 20px 10px 10px;
     margin: 0% auto;
-    background: radial-gradient(ellipse at center, #ff6464 35%,#ff0000 80%,#a90101 100%);
+    background: radial-gradient(ellipse at center, #ff6464 15%,#ff0000 60%,#a90101 100%);
     width: 1000px;
-    height: 70px;
+    height: 100px;
 }
 section{  
     overflow: auto;

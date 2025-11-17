@@ -1,0 +1,24 @@
+body{
+    background-image: url(Assets/shadowTheHedgehogWestopolis.jpg);
+    background-size: 1300px;
+    background-position: top;
+}
+header{
+    padding: 10px;
+    border-radius: 20px 20px 10px 10px;
+    background: linear-gradient(to right, rgba(255, 0, 0, 0.621) 20%, rgba(0, 0, 0, 0.621) 70%) ;
+    width: 980px;
+    height: 100px;
+    margin: 0% auto;
+}
+section#fakeBorder2{
+    border-radius: 10px 10px 5px 5px;
+    margin: 0% auto;
+    background: radial-gradient(ellipse at center, #ffef85 1%,#ffd139 48%,#ffa629 100%);
+    width: 980px;
+    height: 99px;
+}
+embed{
+    margin-left: auto;
+    margin-right: auto;
+} 
