@@ -1,13 +1,22 @@
 section{
     width: 1000px;
     height: 540px;
-    background-color: rgba(240, 248, 255, 0.31);
     margin: auto;
 }
 nav{
     float: left;
     border-radius: 10px;
-    background: radial-gradient(ellipse at center, rgb(229, 83, 83) 20%, red 50%, rgb(163, 6, 6) 100% );
+    background: radial-gradient(ellipse at center, rgb(238, 133, 133) 20%, rgba(255, 0, 0, 0.900) 55%, rgba(163, 6, 6, 0.900) 100% );
     height: 540px;
     width: 180px;
+}
+aside{
+    border-radius: 10px;
+    float: right;
+    background: radial-gradient(ellipse at center, rgba(82, 81, 116, 0.9) 10%, rgba(41, 44, 65, 0.9) 40%, rgba(0, 0, 0, 0.9) 100% );
+    width: 800px;
+    height: 540px;
+}
+table{
+    margin:auto;
 }
