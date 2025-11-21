@@ -16,6 +16,15 @@ aside{
     background: radial-gradient(ellipse at center, rgba(82, 81, 116, 0.9) 10%, rgba(41, 44, 65, 0.9) 40%, rgba(0, 0, 0, 0.9) 100% );
     width: 860px;
     height: 420px;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+}
+p{
+    width: 650px;
+    float: right;
+}
+image{
+    float: left;
 }
 table{
     margin:auto;
