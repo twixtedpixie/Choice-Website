@@ -3,10 +3,10 @@ body{
 }
 article{
     margin: 0% auto;
-    height: 600px;
     background-color: rgb(198, 198, 198);
     width: 951.2px;
     padding-top: 5;
+    padding-bottom: 40px;
 }
 section{
     padding: 30px;
@@ -17,7 +17,7 @@ section{
     margin-right: auto;
     background-color: rgb(238, 238, 238);
     width: 650px;
-    height: 500px;
+    height: auto;
 }
 h1{
     font-family: 'Courier New', Courier, monospace;
@@ -25,4 +25,36 @@ h1{
 }
 table{
     margin: auto;
+}
+nav{
+    width: 951.2px;
+    margin: auto;
+}
+header{
+    margin: auto;
+    background-color: white;
+    width: 951.2px;
+    height: 100px;
+}
+th#head{
+    padding: 8px;
+    border: solid 3px;
+}
+
+td#Crockerbert{
+    border: solid 5px;
+    border-color: rgb(46, 171, 255);
+
+}
+td#Strider{
+    border: solid 5px;    
+    border-color: rgb(255, 111, 0);
+}
+td#Lalonde{
+    border: solid 5px;
+    border-color: #be3cff;
+}
+td#Harley-english{
+    border: solid 5px;
+    border-color: rgb(39, 213, 62);
 }
