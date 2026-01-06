@@ -32,9 +32,12 @@ nav{
 }
 header{
     margin: auto;
-    background-color: white;
+    background-image: url(Images/mspa.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center bottom;
     width: 951.2px;
-    height: 100px;
+    height: 80px;
 }
 th#head{
     padding: 8px;

@@ -17,8 +17,9 @@ section{
     margin-left: auto;
     margin-right: auto;
     background-color: #a0cafd;
-    width: 800px;
-    height: 600px;
+    width: 850px;
+    height: 530px;
+    overflow:auto;
 }
 h1{
     font-family: 'Courier New', Courier, monospace;
@@ -31,12 +32,16 @@ nav{
 }
 header{
     margin: auto;
-    background-image: url(Images/Banners/John.png);
+    background-image: url(Images/mspa.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center bottom;
     width: 951.2px;
-    height: 100px;
+    height: 80px;
 }
-table{
+table#links{
     float: left;
+    background-color: white;
 }
 aside{
     background-color: white;
@@ -57,13 +62,13 @@ a:link#home{
     text-decoration: underline;
 }
 a:hover#home{
-    color: white;
+    color: rgb(0, 8, 255);
     background-color: #a0cafd00;
     margin-right: 10;
     text-decoration: underline;
 }
-a:active#home{
-    color: white;
+a:visited#home{
+     color: white;
     background-color: #a0cafd00;
     margin-right: 10;
     text-decoration: underline;
@@ -96,4 +101,5 @@ section#content{
 
 table#character{
     float: right;
+    background-color: white;
 }
