@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(35, 155, 253);
+    background-image: url(Images/Players/Humans/Beta/LandOfWindAndShade.png);
 }
 article{
     margin: 0% auto;
@@ -10,7 +10,7 @@ article{
     padding-bottom: 40px;
 }
 section{
-    padding: 30px;
+    padding: 20px;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     margin-top: 10px;
@@ -24,18 +24,19 @@ h1{
     font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;
 }
-table{
-    margin: auto;
-}
+
 nav{
     width: 951.2px;
     margin: auto;
 }
 header{
     margin: auto;
-    background-color: white;
+    background-image: url(Images/Banners/John.png);
     width: 951.2px;
     height: 100px;
+}
+table{
+    float: left;
 }
 aside{
     background-color: white;
@@ -55,6 +56,19 @@ a:link#home{
     margin-right: 10;
     text-decoration: underline;
 }
+a:hover#home{
+    color: white;
+    background-color: #a0cafd00;
+    margin-right: 10;
+    text-decoration: underline;
+}
+a:active#home{
+    color: white;
+    background-color: #a0cafd00;
+    margin-right: 10;
+    text-decoration: underline;
+}
+
 a:link{
     background-color: rgb(160, 209, 249);
     padding-top: 5px;
@@ -63,8 +77,23 @@ a:link{
     color: black;
     border-radius: 10px;
 }
+a:hover{
+    background-color: rgb(77, 173, 251);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+}
+
 section#content{
     background-color: white;
     height: auto;
     width: 400px;
+    float: left;
+    margin-left: 18px;
+}
+
+table#character{
+    float: right;
 }
