@@ -5,7 +5,7 @@ article{
     margin: 0% auto;
     background-color: rgb(35, 72, 255);
     width: 951.2px;
-    height: auto;
+    height: 78%;
     padding-top: 5;
     padding-bottom: 40px;
 }
@@ -18,7 +18,7 @@ section{
     margin-right: auto;
     background-color: #a0cafd;
     width: 850px;
-    height: 530px;
+    height: 90%;
     overflow:auto;
 }
 h1{
@@ -94,7 +94,7 @@ a:hover{
 section#content{
     background-color: white;
     height: auto;
-    width: 400px;
+    width: 450px;
     float: left;
     margin-left: 18px;
 }
