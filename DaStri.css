@@ -5,7 +5,7 @@ body{
 }
 article{
     margin: 0% auto;
-    background-color: rgb(255, 15, 15);
+    background-color: rgb(186, 0, 0);
     width: 951.2px;
     height: 78%;
     padding-top: 5;
@@ -18,7 +18,7 @@ section{
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #ffb061;
+    background-color: #fc6327;
     width: 850px;
     height: 90%;
     overflow:auto;
@@ -57,6 +57,11 @@ td{
     margin-bottom: 10px;
 }
 
+a:link#text{
+    background-color: rgba(255, 0, 0, 0);
+    color: blue;
+    text-decoration: underline;
+}
 a:link#home{
     color: white;
     background-color: #a0cafd00;
