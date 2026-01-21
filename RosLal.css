@@ -1,0 +1,112 @@
+body{
+    background-image: url(Images/Players/Humans/Beta/Landoflightandrain.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+article{
+    margin: 0% auto;
+    background-color: rgb(217, 46, 255);
+    width: 951.2px;
+    height: 78%;
+    padding-top: 5;
+    padding-bottom: 40px;
+}
+section{
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f1a0ff;
+    width: 850px;
+    height: 90%;
+    overflow:auto;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
+nav{
+    width: 951.2px;
+    margin: auto;
+}
+header{
+    margin: auto;
+    background-image: url(Images/mspa.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center bottom;
+    width: 951.2px;
+    height: 80px;
+}
+table#links{
+    float: left;
+    background-color: white;
+}
+aside{
+    background-color: white;
+    height: 430px;
+    float: left;
+}
+th{
+    border-bottom: solid 2px;
+}
+td{
+    margin-bottom: 10px;
+}
+
+a:link#text{
+    background-color: rgba(255, 0, 0, 0);
+    color: blue;
+    text-decoration: underline;
+}
+a:link#home{
+    color: white;
+    background-color: #a0cafd00;
+    margin-right: 10;
+    text-decoration: underline;
+}
+a:hover#home{
+    color: rgb(0, 8, 255);
+    background-color: #a0cafd00;
+    margin-right: 10;
+    text-decoration: underline;
+}
+a:visited#home{
+     color: white;
+    background-color: #a0cafd00;
+    margin-right: 10;
+    text-decoration: underline;
+}
+
+a:link{
+    background-color: rgb(255, 178, 200);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+}
+a:hover{
+    background-color: rgb(255, 116, 156);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+}
+
+section#content{
+    background-color: white;
+    height: auto;
+    width: 450px;
+    float: left;
+    margin-left: 18px;
+}
+
+table#character{
+    float: right;
+    background-color: white;
+}
