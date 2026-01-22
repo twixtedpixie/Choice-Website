@@ -48,7 +48,7 @@ table#links{
 aside{
     background-color: white;
     height: 430px;
-    float: left;
+    float: left; 
 }
 th{
     border-bottom: solid 2px;
@@ -109,4 +109,5 @@ section#content{
 table#character{
     float: right;
     background-color: white;
+    
 }

@@ -1,9 +1,11 @@
 body{
-    background-image: url(Images/Players/Humans/Beta/LandOfWindAndShade.png);
+    background-image: url(Images/Players/Humans/Alpha/LOTAK_Title.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 article{
     margin: 0% auto;
-    background-color: rgb(35, 72, 255);
+    background-color: rgb(255, 163, 33);
     width: 951.2px;
     height: 78%;
     padding-top: 5;
@@ -16,7 +18,7 @@ section{
     margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #67abff;
+    background-color: hsl(43, 100%, 73%);
     width: 850px;
     height: 90%;
     overflow:auto;
@@ -55,6 +57,11 @@ td{
     margin-bottom: 10px;
 }
 
+a:link#text{
+    background-color: rgba(255, 0, 0, 0);
+    color: blue;
+    text-decoration: underline;
+}
 a:link#home{
     color: white;
     background-color: #a0cafd00;
@@ -75,7 +82,7 @@ a:visited#home{
 }
 
 a:link{
-    background-color: rgb(160, 209, 249);
+    background-color: rgb(255, 29, 29);
     padding-top: 5px;
     padding-bottom: 5px;
     text-decoration: none;
@@ -83,7 +90,7 @@ a:link{
     border-radius: 10px;
 }
 a:hover{
-    background-color: rgb(77, 173, 251);
+    background-color: rgb(199, 13, 13);
     padding-top: 5px;
     padding-bottom: 5px;
     text-decoration: none;
